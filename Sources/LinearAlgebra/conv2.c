@@ -2,7 +2,7 @@
  * conv2.c
  *
  *  Created on: 4 Januari 2024
- *      Author: Daniel Mårtensson
+ *      Author: Daniel Mï¿½rtensson
  */
 
 #include "linearalgebra.h"
@@ -148,7 +148,7 @@ void conv2(const float A[], const float K[], float B[], const size_t row_a, cons
         break;
     }
     default:
-        printf("No support for that shape yet\n");
+        //printf("No support for that shape yet\n");
         return;
     }
 }

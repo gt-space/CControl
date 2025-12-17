@@ -2,7 +2,7 @@
  * conv.c
  *
  *  Created on: 26 December 2023
- *      Author: Daniel Mårtensson
+ *      Author: Daniel Mï¿½rtensson
  */
 
 #include "linearalgebra.h"
@@ -93,7 +93,7 @@ void conv(const float a[], const float k[], float b[], const size_t row_a, const
         break;
     }
     default:
-        printf("No support for that shape yet\n");
+        //printf("No support for that shape yet\n");
         return;
     }
 }
